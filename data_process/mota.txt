@@ -1,0 +1,40 @@
+Ngày tạo đơn, Mã tạo đơn, Mã khách hàng, Tên khách hàng, Phân khúc khách hàng, Mã nhóm hàng, Mã mặt hàng, Tên mặt hàng, Phân loại, số lượng, Đơn giá, Thành tiền
+Ngày tạo đơn : đầu 2022 - cuối 2024
+Mã tạo đơn: ORD + ... theo số thứ tự tăng dần từ 1 đến n, cùng ngày tạo đơn và cùng tên khách hàng thì sẽ cùng mã tạo đơn
+
+Mã khách hàng : Tên khách hàng                             : Phân khúc khách hàng
+CU001	      : Xanh Xanh Hội An			   : Cửa hàng
+CU002	      : Joly mart				   : Cửa hàng
+CU003         : Beba mart				   : Cửa hàng
+CU004	      : Thu Bồn					   : Cửa hàng
+CU005	      : Toàn cầu				   : Cửa hàng
+CU006	      : Greentech food				   : Cửa hàng
+CU007         : Danavi mart			           : Cửa hàng
+CU008         : Eco mart				   : Cửa hàng
+CU009	      : Co-op mart				   : Siêu thị
+CU010         : Liên minh hợp tác xã			   : Khác
+CU011         : Trung tâm hội nghị thể thao quốc gia	   : Khác
+CU012	      : Vita mart                                  : Cửa hàng
+CU013         : An Phú Farm			           : Cửa hàng
+
+Mã nhóm hàng  : Tên nhóm hàng	: 	Mã mặt hàng  : Tên mặt hàng 		 : 	Đơn vị tính  : Đơn giá
+MN	      : Nấm mộc nhĩ	:	MN01         : Nấm Mộc nhĩ khô  	 :      gói          : 25000
+MN	      : Nấm mộc nhĩ	:	MN02         : Nấm Mộc nhĩ khô thái sợi  :      gói          : 30000 
+BN            : Nấm bào ngư	:	BN01         : Nấm Bào ngư tươi          :      gói          : 15000
+BN            : Nấm bào ngư	:	BN01         : Nấm Bào ngư tươi    	 :      kg           : 70000
+BN            : Nấm bào ngư	:	BN02         : Nấm Bào ngư khô           :      gói          : 60000
+R             : Nấm rơm		:	R01	     : Nấm Rơm tươi              :      kg           : 180000
+R	      : Nấm rơm		:	R02          : Nấm Rơm khô               :      gói          : 75000
+DC            : Nấm đông cô	:	DC           : Nấm Đông cô             	 :   	gói          : 40000
+H             : Nấm hương	:	H            : Nấm Hương                 :      gói          : 50000
+T             : Tiêu hột	:	T            : Nấm Tiêu hột 		 :   	hộp          : 30000
+OT	      : Ớt		:	OT           : Ớt                   	 :   	hộp          : 30000
+G	      : Nấm đùi gà	:	G            : Nấm Đùi gà                :      gói          : 17000 
+
+Thành tiền = Đơn giá * Số lượng
+ 
+
+
+
+
+

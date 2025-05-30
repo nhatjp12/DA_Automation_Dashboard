@@ -1,0 +1,3616 @@
+Image: 2C25TKT_00000001.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "15/01/2025",
+    "Tên khách hàng": "CÔNG TY TNHH MỘT THÀNH VIÊN TMDV SIÊU THỊ CO.OPMART ĐÀ NẴNG"
+  },
+  {
+    "Tên mặt hàng": "Nấm bào ngư tươi",
+    "Đơn vị tính": "kg",
+    "Số lượng": "40,00",
+    "Đơn giá": "70,000",
+    "Thành tiền": "2,800,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm hương khô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "15,00",
+    "Đơn giá": "50,000",
+    "Thành tiền": "750,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm đông cô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "15,00",
+    "Đơn giá": "40,000",
+    "Thành tiền": "600,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm rơm khô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "15,00",
+    "Đơn giá": "65,000",
+    "Thành tiền": "975,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm mộc nhĩ (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "19,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "475,000"
+  }
+]
+
+Image: 2C25TKT_00000002.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "17/01/2025",
+    "Tên khách hàng": "PHÒNG NÔNG NGHIỆP & PHÁT TRIỂN NÔNG THÔN HOÀ VANG"
+  },
+  {
+    "Tên mặt hàng": "Nấm mộc nhỉ (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "200,00",
+    "Đơn giá": "30.000",
+    "Thành tiền": "6.000.000"
+  },
+  {
+    "Tên mặt hàng": "Nấm bào ngư sấy khô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "200,00",
+    "Đơn giá": "60.000",
+    "Thành tiền": "12.000.000"
+  }
+]
+
+Image: 2C25TKT_00000003.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "31/01/2025",
+    "Tên khách hàng": "TIỆM ĂN TÀI KÝ"
+  },
+  {
+    "Tên mặt hàng": "Cải xanh",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "27,00",
+    "Đơn giá": "12,000",
+    "Thành tiền": "324,000"
+  },
+  {
+    "Tên mặt hàng": "Rau muống",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "22,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "330,000"
+  },
+  {
+    "Tên mặt hàng": "Mồng tơi",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "31,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "310,000"
+  },
+  {
+    "Tên mặt hàng": "Khổ qua",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "62,00",
+    "Đơn giá": "27,000",
+    "Thành tiền": "1,674,000"
+  },
+  {
+    "Tên mặt hàng": "Hành lá",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "35,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "700,000"
+  },
+  {
+    "Tên mặt hàng": "Ớt xanh",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "20,00",
+    "Đơn giá": "22,000",
+    "Thành tiền": "440,000"
+  },
+  {
+    "Tên mặt hàng": "Cà chua",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "20,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "500,000"
+  }
+]
+
+Image: 2C25TKT_00000004.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "31/01/2025",
+    "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM"
+  },
+  {
+    "Tên mặt hàng": "Xà lách",
+    "Đơn vị tính": "kg",
+    "Số lượng": "82,00",
+    "Đơn giá": "29,000",
+    "Thành tiền": "2.378.000"
+  },
+  {
+    "Tên mặt hàng": "Cà chua",
+    "Đơn vị tính": "kg",
+    "Số lượng": "75,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "1.875.000"
+  },
+  {
+    "Tên mặt hàng": "Dưa leo",
+    "Đơn vị tính": "kg",
+    "Số lượng": "41,00",
+    "Đơn giá": "18,000",
+    "Thành tiền": "738.000"
+  },
+  {
+    "Tên mặt hàng": "Càng cua",
+    "Đơn vị tính": "kg",
+    "Số lượng": "33,00",
+    "Đơn giá": "30,000",
+    "Thành tiền": "990.000"
+  },
+  {
+    "Tên mặt hàng": "Hành lá",
+    "Đơn vị tính": "kg",
+    "Số lượng": "40,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "800.000"
+  },
+  {
+    "Tên mặt hàng": "Ớt xanh",
+    "Đơn vị tính": "kg",
+    "Số lượng": "35,00",
+    "Đơn giá": "22,000",
+    "Thành tiền": "770.000"
+  },
+  {
+    "Tên mặt hàng": "Mướp",
+    "Đơn vị tính": "kg",
+    "Số lượng": "49,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "980.000"
+  },
+  {
+    "Tên mặt hàng": "Rau muống",
+    "Đơn vị tính": "bó",
+    "Số lượng": "58,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "870.000"
+  },
+  {
+    "Tên mặt hàng": "Rau mồng tơi",
+    "Đơn vị tính": "bó",
+    "Số lượng": "61,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "610.000"
+  },
+  {
+    "Tên mặt hàng": "Rau cải xanh",
+    "Đơn vị tính": "kg",
+    "Số lượng": "66,00",
+    "Đơn giá": "12,000",
+    "Thành tiền": "792.000"
+  },
+  {
+    "Tên mặt hàng": "Rau húng",
+    "Đơn vị tính": "kg",
+    "Số lượng": "65,00",
+    "Đơn giá": "30,000",
+    "Thành tiền": "1.950.000"
+  }
+]
+
+Image: 2C25TKT_00000005.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "17 tháng 02 năm 2025",
+    "Tên khách hàng": "TRUNG TÂM HUẤN LUYỆN THỂ THAO QUỐC GIA ĐÀ NẴNG"
+  },
+  {
+    "Tên mặt hàng": "Rau Cải xanh",
+    "Đơn vị tính": "kg",
+    "Số lượng": "250,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "6.250.000"
+  },
+  {
+    "Tên mặt hàng": "Rau Mồng tơi",
+    "Đơn vị tính": "kg",
+    "Số lượng": "220,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "5.500.000"
+  },
+  {
+    "Tên mặt hàng": "Rau bồ ngót",
+    "Đơn vị tính": "kg",
+    "Số lượng": "140,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "1.400.000"
+  },
+  {
+    "Tên mặt hàng": "Hành lá",
+    "Đơn vị tính": "kg",
+    "Số lượng": "80,00",
+    "Đơn giá": "80,00",
+    "Thành tiền": "2.400.000"
+  },
+  {
+    "Tên mặt hàng": "Sả cây",
+    "Đơn vị tính": "kg",
+    "Số lượng": "90,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "1.350.000"
+  },
+  {
+    "Tên mặt hàng": "Hành tím",
+    "Đơn vị tính": "kg",
+    "Số lượng": "160,00",
+    "Đơn giá": "35,000",
+    "Thành tiền": "5.600.000"
+  },
+  {
+    "Tên mặt hàng": "Tỏi",
+    "Đơn vị tính": "kg",
+    "Số lượng": "85,00",
+    "Đơn giá": "45,000",
+    "Thành tiền": "3.825.000"
+  },
+  {
+    "Tên mặt hàng": "Khoai tây",
+    "Đơn vị tính": "kg",
+    "Số lượng": "160,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "3.200.000"
+  },
+  {
+    "Tên mặt hàng": "Ớt Chuông (xanh, đỏ, vàng)",
+    "Đơn vị tính": "kg",
+    "Số lượng": "115,00",
+    "Đơn giá": "50,000",
+    "Thành tiền": "5.750.000"
+  },
+  {
+    "Tên mặt hàng": "Búp cải thảo",
+    "Đơn vị tính": "kg",
+    "Số lượng": "140,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "2.100.000"
+  },
+  {
+    "Tên mặt hàng": "Dưa leo",
+    "Đơn vị tính": "kg",
+    "Số lượng": "85,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "1.275.000"
+  },
+  {
+    "Tên mặt hàng": "Cà chua",
+    "Đơn vị tính": "kg",
+    "Số lượng": "235,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "5.875.000"
+  },
+  {
+    "Tên mặt hàng": "Xà lách",
+    "Đơn vị tính": "kg",
+    "Số lượng": "62,00",
+    "Đơn giá": "35,000",
+    "Thành tiền": "2.170.000"
+  },
+  {
+    "Tên mặt hàng": "Chanh các loại",
+    "Đơn vị tính": "kg",
+    "Số lượng": "150,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "3.750.000"
+  },
+  {
+    "Tên mặt hàng": "Quả bầu",
+    "Đơn vị tính": "kg",
+    "Số lượng": "250,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "2.500.000"
+  },
+  {
+    "Tên mặt hàng": "Quả bí đỏ",
+    "Đơn vị tính": "kg",
+    "Số lượng": "130,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "1.950.000"
+  },
+  {
+    "Tên mặt hàng": "Quả bí đao",
+    "Đơn vị tính": "kg",
+    "Số lượng": "150,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "2.250.000"
+  },
+  {
+    "Tên mặt hàng": "Cà rốt",
+    "Đơn vị tính": "kg",
+    "Số lượng": "130,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "1.950.000"
+  },
+  {
+    "Tên mặt hàng": "Mướp Hương",
+    "Đơn vị tính": "kg",
+    "Số lượng": "160,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "4.000.000"
+  },
+  {
+    "Tên mặt hàng": "Quả su su",
+    "Đơn vị tính": "kg",
+    "Số lượng": "150,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "2.250.000"
+  },
+  {
+    "Tên mặt hàng": "Củ cải trắng",
+    "Đơn vị tính": "kg",
+    "Số lượng": "81,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "1.620.000"
+  },
+  {
+    "Tên mặt hàng": "Đậu cove",
+    "Đơn vị tính": "kg",
+    "Số lượng": "171,00",
+    "Đơn giá": "27,000",
+    "Thành tiền": "4.617.000"
+  },
+  {
+    "Tên mặt hàng": "Bún tươi",
+    "Đơn vị tính": "kg",
+    "Số lượng": "180,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "1.800.000"
+  },
+  {
+    "Tên mặt hàng": "Bánh phở",
+    "Đơn vị tính": "kg",
+    "Số lượng": "120,00",
+    "Đơn giá": "16,000",
+    "Thành tiền": "1.920.000"
+  },
+  {
+    "Tên mặt hàng": "Mỳ quảng",
+    "Đơn vị tính": "kg",
+    "Số lượng": "90,00",
+    "Đơn giá": "13,000",
+    "Thành tiền": "1.170.000"
+  }
+]
+
+Image: 2C25TKT_00000006.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "21 tháng 02 năm 2025",
+    "Tên khách hàng": "TRUNG TÂM HUẤN LUYỆN THỂ THAO QUỐC GIA ĐÀ NẴNG"
+  },
+  {
+    "Tên mặt hàng": "Rau Cải xanh",
+    "Đơn vị tính": "kg",
+    "Số lượng": "180,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "4.500.000"
+  },
+  {
+    "Tên mặt hàng": "Rau Mồng tơi",
+    "Đơn vị tính": "kg",
+    "Số lượng": "160,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "4.000.000"
+  },
+  {
+    "Tên mặt hàng": "Rau bồ ngót",
+    "Đơn vị tính": "kg",
+    "Số lượng": "90,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "1.800.000"
+  },
+  {
+    "Tên mặt hàng": "Hành lá",
+    "Đơn vị tính": "kg",
+    "Số lượng": "60,00",
+    "Đơn giá": "30,000",
+    "Thành tiền": "1.800.000"
+  },
+  {
+    "Tên mặt hàng": "Sả cây",
+    "Đơn vị tính": "kg",
+    "Số lượng": "65,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "975.000"
+  },
+  {
+    "Tên mặt hàng": "Hành tím",
+    "Đơn vị tính": "kg",
+    "Số lượng": "130,00",
+    "Đơn giá": "35,000",
+    "Thành tiền": "4.550.000"
+  },
+  {
+    "Tên mặt hàng": "Tỏi",
+    "Đơn vị tính": "kg",
+    "Số lượng": "50,00",
+    "Đơn giá": "45,000",
+    "Thành tiền": "2.250.000"
+  },
+  {
+    "Tên mặt hàng": "Khoai tây",
+    "Đơn vị tính": "kg",
+    "Số lượng": "90,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "1.800.000"
+  },
+  {
+    "Tên mặt hàng": "Ớt Chuông (xanh, đỏ, vàng)",
+    "Đơn vị tính": "kg",
+    "Số lượng": "75,00",
+    "Đơn giá": "50,000",
+    "Thành tiền": "3.750.000"
+  },
+  {
+    "Tên mặt hàng": "Búp cải thảo",
+    "Đơn vị tính": "kg",
+    "Số lượng": "90,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "1.350.000"
+  },
+  {
+    "Tên mặt hàng": "Dưa leo",
+    "Đơn vị tính": "kg",
+    "Số lượng": "65,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "975.000"
+  },
+  {
+    "Tên mặt hàng": "Cà chua",
+    "Đơn vị tính": "kg",
+    "Số lượng": "170,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "4.250.000"
+  },
+  {
+    "Tên mặt hàng": "Xà lách",
+    "Đơn vị tính": "kg",
+    "Số lượng": "45,00",
+    "Đơn giá": "35,000",
+    "Thành tiền": "1.575.000"
+  },
+  {
+    "Tên mặt hàng": "Chanh các loại",
+    "Đơn vị tính": "kg",
+    "Số lượng": "110,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "2.750.000"
+  },
+  {
+    "Tên mặt hàng": "Rau muống",
+    "Đơn vị tính": "kg",
+    "Số lượng": "190,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "1.900.000"
+  },
+  {
+    "Tên mặt hàng": "Quả bầu",
+    "Đơn vị tính": "kg",
+    "Số lượng": "55,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "825.000"
+  },
+  {
+    "Tên mặt hàng": "Quả bí đỏ",
+    "Đơn vị tính": "kg",
+    "Số lượng": "80,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "1.200.000"
+  },
+  {
+    "Tên mặt hàng": "Quả bí đao",
+    "Đơn vị tính": "kg",
+    "Số lượng": "90,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "1.350.000"
+  },
+  {
+    "Tên mặt hàng": "Cà rốt",
+    "Đơn vị tính": "kg",
+    "Số lượng": "70,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "1.050.000"
+  },
+  {
+    "Tên mặt hàng": "Mướp Hương",
+    "Đơn vị tính": "kg",
+    "Số lượng": "110,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "2.750.000"
+  },
+  {
+    "Tên mặt hàng": "Quả su",
+    "Đơn vị tính": "kg",
+    "Số lượng": "95,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "1.425.000"
+  },
+  {
+    "Tên mặt hàng": "Củ cải trắng",
+    "Đơn vị tính": "kg",
+    "Số lượng": "50,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "1.000.000"
+  },
+  {
+    "Tên mặt hàng": "Đậu cove",
+    "Đơn vị tính": "kg",
+    "Số lượng": "125,00",
+    "Đơn giá": "27,000",
+    "Thành tiền": "3.375.000"
+  },
+  {
+    "Tên mặt hàng": "Bún tươi",
+    "Đơn vị tính": "kg",
+    "Số lượng": "120,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "1.200.000"
+  },
+  {
+    "Tên mặt hàng": "Bánh phở",
+    "Đơn vị tính": "kg",
+    "Số lượng": "85,00",
+    "Đơn giá": "16,000",
+    "Thành tiền": "1.360.000"
+  },
+  {
+    "Tên mặt hàng": "Mỳ quảng",
+    "Đơn vị tính": "kg",
+    "Số lượng": "70,00",
+    "Đơn giá": "13,000",
+    "Thành tiền": "910.000"
+  }
+]
+
+Image: 2C25TKT_00000007.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "26/02/2025",
+    "Tên khách hàng": "CÔNG TY TNHH MỘT THÀNH VIÊN TMDV SIÊU THỊ CO.OPMART ĐÀ NẴNG"
+  },
+  {
+    "Tên mặt hàng": "Nấm bào ngư tươi",
+    "Đơn vị tính": "kg",
+    "Số lượng": "48,00",
+    "Đơn giá": "70,000",
+    "Thành tiền": "3,360,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm rơm khô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "15,00",
+    "Đơn giá": "72,000",
+    "Thành tiền": "1,080,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm rơm khô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "30,00",
+    "Đơn giá": "75,000",
+    "Thành tiền": "2,250,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm hương khô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "60,00",
+    "Đơn giá": "50,000",
+    "Thành tiền": "3.000,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm đông cô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "60,00",
+    "Đơn giá": "50,000",
+    "Thành tiền": "3.000,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm mộc nhĩ (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "15,00",
+    "Đơn giá": "30,000",
+    "Thành tiền": "450,000"
+  },
+  {
+    "Tên mặt hàng": "Nấm mộc nhĩ (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "30,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "750,000"
+  }
+]
+
+Image: 2C25TKT_00000008.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Xà lách",
+  "Đơn vị tính": "kg",
+  "Số lượng": "44,00",
+  "Đơn giá": "25,000",
+  "Thành tiền": "1.100.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Cà chua",
+  "Đơn vị tính": "kg",
+  "Số lượng": "56,00",
+  "Đơn giá": "20,000",
+  "Thành tiền": "1.120.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Dưa leo",
+  "Đơn vị tính": "kg",
+  "Số lượng": "53,00",
+  "Đơn giá": "13,000",
+  "Thành tiền": "689.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Càng cua",
+  "Đơn vị tính": "kg",
+  "Số lượng": "24,00",
+  "Đơn giá": "30,000",
+  "Thành tiền": "720.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Hành lá",
+  "Đơn vị tính": "kg",
+  "Số lượng": "31,00",
+  "Đơn giá": "18,000",
+  "Thành tiền": "558.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Ớt xanh",
+  "Đơn vị tính": "kg",
+  "Số lượng": "21,00",
+  "Đơn giá": "20,000",
+  "Thành tiền": "420.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Mướp",
+  "Đơn vị tính": "kg",
+  "Số lượng": "25,00",
+  "Đơn giá": "19,000",
+  "Thành tiền": "475.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Rau muống",
+  "Đơn vị tính": "bó",
+  "Số lượng": "33,00",
+  "Đơn giá": "15,000",
+  "Thành tiền": "495.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Rau mồng tơi",
+  "Đơn vị tính": "bó",
+  "Số lượng": "28,00",
+  "Đơn giá": "10,000",
+  "Thành tiền": "280.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Rau cải xanh",
+  "Đơn vị tính": "kg",
+  "Số lượng": "29,00",
+  "Đơn giá": "12,000",
+  "Thành tiền": "348.000"
+},
+{
+  "Ngày tạo đơn": "28/02/2025",
+  "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM",
+  "Tên mặt hàng": "Nấm bào ngư trắng",
+  "Đơn vị tính": "kg",
+  "Số lượng": "32,00",
+  "Đơn giá": "25,000",
+  "Thành tiền": "800.000"
+}]
+
+Image: 2C25TKT_00000009.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "28/02/2025",
+    "Tên khách hàng": "TIỆM ĂN TÀI KÝ"
+  },
+  {
+    "Tên mặt hàng": "Cải xanh",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "23,00",
+    "Đơn giá": "12,000",
+    "Thành tiền": "276,000"
+  },
+  {
+    "Tên mặt hàng": "Rau muống",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "27,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "405,000"
+  },
+  {
+    "Tên mặt hàng": "Mồng tơi",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "28,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "280,000"
+  },
+  {
+    "Tên mặt hàng": "Khổ qua",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "42,00",
+    "Đơn giá": "27,000",
+    "Thành tiền": "1.134,000"
+  },
+  {
+    "Tên mặt hàng": "Hành lá",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "33,00",
+    "Đơn giá": "18,000",
+    "Thành tiền": "594,000"
+  },
+  {
+    "Tên mặt hàng": "Ớt xanh",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "25,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "500,000"
+  },
+  {
+    "Tên mặt hàng": "Cà chua",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "27,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "540,000"
+  }
+]
+
+Image: 2C25TKT_00000011.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "06 tháng 03 năm 2025",
+  "Tên khách hàng": "TRUNG TÂM HUẤN LUYỆN THỂ THAO QUỐC GIA ĐÀ NẴNG"
+}, {
+  "Tên mặt hàng": "Rau Cải xanh",
+  "Đơn vị tính": "kg",
+  "Số lượng": "150,00",
+  "Đơn giá": "25,000",
+  "Thành tiền": "3.750.000"
+}, {
+  "Tên mặt hàng": "Rau Mồng tơi",
+  "Đơn vị tính": "kg",
+  "Số lượng": "160,00",
+  "Đơn giá": "25,000",
+  "Thành tiền": "4.000.000"
+}, ... ]
+
+Image: 2C25TKT_00000012.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "26/03/2025",
+    "Tên khách hàng": "CÔNG TY TNHH MỘT THÀNH VIÊN TMDV SIÊU THỊ CO.OPMART ĐÀ NẴNG"
+  },
+  {
+    "Tên mặt hàng": "Nấm bào ngư tươi",
+    "Đơn vị tính": "kg",
+    "Số lượng": "31,00",
+    "Đơn giá": "70.000",
+    "Thành tiền": "2.170.000"
+  },
+  {
+    "Tên mặt hàng": "Nấm bào ngư khô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "15,00",
+    "Đơn giá": "60.000",
+    "Thành tiền": "900.000"
+  },
+  {
+    "Tên mặt hàng": "Nấm mộc nhĩ (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "15,00",
+    "Đơn giá": "25.000",
+    "Thành tiền": "375.000"
+  },
+  {
+    "Tên mặt hàng": "Nấm hương khô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "15,00",
+    "Đơn giá": "50.000",
+    "Thành tiền": "750.000"
+  },
+  {
+    "Tên mặt hàng": "Nấm đông cô (100gr/gói)",
+    "Đơn vị tính": "gói",
+    "Số lượng": "15,00",
+    "Đơn giá": "40.000",
+    "Thành tiền": "600.000"
+  }
+]
+
+Image: 2C25TKT_00000013.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "28 tháng 03 năm 2025",
+  "Tên khách hàng": "TRUNG TÂM HUẤN LUYỆN VẬN ĐỘNG VIÊN TRẺ QUỐC GIA"
+}, {
+  "Tên mặt hàng": "Rau Cải xanh",
+  "Đơn vị tính": "kg",
+  "Số lượng": "190,00",
+  "Đơn giá": "25,000",
+  "Thành tiền": "4.750,00"
+}, {
+  "Tên mặt hàng": "Rau Mồng tơi",
+  "Đơn vị tính": "kg",
+  "Số lượng": "170,00",
+  "Đơn giá": "25,000",
+  "Thành tiền": "4.250,00"
+}, ... ]
+
+Image: 2C25TKT_00000014.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "29/03/2025",
+    "Tên khách hàng": "TIỆM ĂN TÀI KÝ"
+  },
+  {
+    "Tên mặt hàng": "Cải xanh",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "25,00",
+    "Đơn giá": "12.000",
+    "Thành tiền": "300.000"
+  },
+  {
+    "Tên mặt hàng": "Rau muống",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "22,00",
+    "Đơn giá": "15.000",
+    "Thành tiền": "330.000"
+  },
+  {
+    "Tên mặt hàng": "Mồng tơi",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "27,00",
+    "Đơn giá": "10.000",
+    "Thành tiền": "270.000"
+  },
+  {
+    "Tên mặt hàng": "Khổ qua",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "45,00",
+    "Đơn giá": "25.000",
+    "Thành tiền": "1.125.000"
+  },
+  {
+    "Tên mặt hàng": "Hành lá",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "32,00",
+    "Đơn giá": "18.000",
+    "Thành tiền": "576.000"
+  },
+  {
+    "Tên mặt hàng": "Ớt xanh",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "25,00",
+    "Đơn giá": "20.000",
+    "Thành tiền": "500.000"
+  },
+  {
+    "Tên mặt hàng": "Cà chua",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "45,00",
+    "Đơn giá": "18.000",
+    "Thành tiền": "810.000"
+  }
+]
+
+Image: 2C25TKT_00000015.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "29/03/2025",
+    "Tên khách hàng": "KHÔNG GIAN XƯA - CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ LẮP MÁY MIỀN NAM"
+  },
+  {
+    "Tên mặt hàng": "Xà lách",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "40,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "1.000.000"
+  },
+  {
+    "Tên mặt hàng": "Cà chua",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "52,00",
+    "Đơn giá": "18,000",
+    "Thành tiền": "936.000"
+  },
+  {
+    "Tên mặt hàng": "Dưa leo",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "48,00",
+    "Đơn giá": "13,000",
+    "Thành tiền": "624.000"
+  },
+  {
+    "Tên mặt hàng": "Càng cua",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "22,00",
+    "Đơn giá": "30,000",
+    "Thành tiền": "660.000"
+  },
+  {
+    "Tên mặt hàng": "Hành lá",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "33,00",
+    "Đơn giá": "18,000",
+    "Thành tiền": "594.000"
+  },
+  {
+    "Tên mặt hàng": "Ớt xanh",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "25,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "500.000"
+  },
+  {
+    "Tên mặt hàng": "Khổ qua",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "27,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "675.000"
+  },
+  {
+    "Tên mặt hàng": "Rau muống",
+    "Đơn vị tính": "bó",
+    "Số lượng": "35,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "525.000"
+  },
+  {
+    "Tên mặt hàng": "Rau mồng tơi",
+    "Đơn vị tính": "bó",
+    "Số lượng": "30,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "300.000"
+  },
+  {
+    "Tên mặt hàng": "Rau cải xanh",
+    "Đơn vị tính": "bó",
+    "Số lượng": "26,00",
+    "Đơn giá": "12,000",
+    "Thành tiền": "312.000"
+  },
+  {
+    "Tên mặt hàng": "Rau húng",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "34,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "850.000"
+  }
+]
+
+Image: 2C25TKT_00000016.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "08 tháng 04 năm 2025",
+    "Tên khách hàng": "TRUNG TÂM HUẤN LUYỆN VẬN ĐỘNG VIÊN TRẺ QUỐC GIA"
+  },
+  {
+    "Tên mặt hàng": "Rau Cải xanh",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "110,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "2.750.000"
+  },
+  {
+    "Tên mặt hàng": "Rau Mồng tơi",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "70,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "1.750.000"
+  },
+  {
+    "Tên mặt hàng": "Rau bồ ngót",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "60,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "6.000.000"
+  },
+  {
+    "Tên mặt hàng": "Hành lá",
+    "Đơn vị tính": "Bó",
+    "Số lượng": "40,00",
+    "Đơn giá": "30,000",
+    "Thành tiền": "1.200.000"
+  },
+  {
+    "Tên mặt hàng": "Sả cây",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "40,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "600.000"
+  },
+  {
+    "Tên mặt hàng": "Hành tím",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "70,00",
+    "Đơn giá": "35,000",
+    "Thành tiền": "2.450.000"
+  },
+  {
+    "Tên mặt hàng": "Tỏi",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "35,00",
+    "Đơn giá": "45,000",
+    "Thành tiền": "1.575.000"
+  },
+  {
+    "Tên mặt hàng": "Khoai tây",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "50,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "1.000.000"
+  },
+  {
+    "Tên mặt hàng": "Ớt Chuông (xanh, đỏ, vàng)",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "45,00",
+    "Đơn giá": "50,000",
+    "Thành tiền": "2.250.000"
+  },
+  {
+    "Tên mặt hàng": "Búp cải thảo",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "50,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "750.000"
+  },
+  {
+    "Tên mặt hàng": "Dưa leo",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "55,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "825.000"
+  },
+  {
+    "Tên mặt hàng": "Cà chua",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "95,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "2.375.000"
+  },
+  {
+    "Tên mặt hàng": "Xà lách",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "45,00",
+    "Đơn giá": "35,000",
+    "Thành tiền": "1.575.000"
+  },
+  {
+    "Tên mặt hàng": "Chanh các loại",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "60,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "1.500.000"
+  },
+  {
+    "Tên mặt hàng": "Quả bầu",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "30,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "450.000"
+  },
+  {
+    "Tên mặt hàng": "Quả bí đỏ",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "30,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "450.000"
+  },
+  {
+    "Tên mặt hàng": "Quả bí đao",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "60,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "900.000"
+  },
+  {
+    "Tên mặt hàng": "Cà rốt",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "40,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "600.000"
+  },
+  {
+    "Tên mặt hàng": "Mướp Hương",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "60,00",
+    "Đơn giá": "25,000",
+    "Thành tiền": "1.500.000"
+  },
+  {
+    "Tên mặt hàng": "Quả su",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "40,00",
+    "Đơn giá": "15,000",
+    "Thành tiền": "600.000"
+  },
+  {
+    "Tên mặt hàng": "Củ cải trắng",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "30,00",
+    "Đơn giá": "20,000",
+    "Thành tiền": "600.000"
+  },
+  {
+    "Tên mặt hàng": "Đậu cove",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "70,00",
+    "Đơn giá": "27,000",
+    "Thành tiền": "1.890.000"
+  },
+  {
+    "Tên mặt hàng": "Bún tươi",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "150,00",
+    "Đơn giá": "10,000",
+    "Thành tiền": "1.500.000"
+  },
+  {
+    "Tên mặt hàng": "Bánh phở",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "110,00",
+    "Đơn giá": "16,000",
+    "Thành tiền": "1.760.000"
+  },
+  {
+    "Tên mặt hàng": "Mỳ quảng",
+    "Đơn vị tính": "Kg",
+    "Số lượng": "80,00",
+    "Đơn giá": "13,000",
+    "Thành tiền": "1.040.000"
+  }
+]
+
+Image: 2C25TKT_00000017.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "10/04/2025",
+  "Tên khách hàng": "ỦY BAN NHÂN DÂN PHƯỜNG THANH BÌNH"
+}, {
+  "Tên mặt hàng": "Phôi nấm",
+  "Đơn vị tính": "Bịch",
+  "Số lượng": "600,00",
+  "Đơn giá": "10.000",
+  "Thành tiền": "6.000.000"
+}]
+
+Image: 2C25TKT_00000018.png
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [ 
+  {
+    "Ngày tạo đơn": "16/04/2025",
+    "Tên khách hàng": "CÔNG TY TNHH SẢN XUẤT VÀ THƯƠNG MẠI CROPHATECH"
+  }
+]
+
+Image: facbd6ea-7f1f-42fc-8882-102d84242f07.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "18 tháng 2 năm 2025",
+  "Tên khách hàng": "Vị Ta Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "15",
+  "Thành tiền": "75.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "0,5",
+  "Đơn giá": "200",
+  "Thành tiền": "100.000"
+}]
+
+Image: f6483f50-3afc-4bfe-8c72-d5bda1cd146c.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "29 tháng 3 năm 2025",
+  "Tên khách hàng": "An Phú Farm (PDL)"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 14,
+  "Thành tiền": 70000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 190,
+  "Thành tiền": 190000
+}]
+
+Image: f28a5362-eb8b-415f-be0c-cebf17d8a268.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "18 tháng 2 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 15,
+  "Thành tiền": 75000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 200,
+  "Thành tiền": 200000
+}, {
+  "Tên mặt hàng": "Nấm đông cô",
+  "Đơn vị tính": "gói",
+  "Số lượng": 3,
+  "Đơn giá": 40,
+  "Thành tiền": 120000
+}]
+
+Image: f0b95d6a-9eca-41b5-b62c-50f43e4e948c.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "10 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bôn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "15",
+  "Thành tiền": "75.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "180",
+  "Thành tiền": "180.000"
+}]
+
+Image: e6a39596-0a55-4ea6-81f4-4b9460674e1f.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "10 tháng 2 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 10,
+  "Đơn giá": 15,
+  "Thành tiền": 150000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 200,
+  "Thành tiền": 200000
+}]
+
+Image: e2c2489b-caa0-4269-b398-9699169b5863.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "14 tháng 2 năm 2025",
+  "Tên khách hàng": "An Phú Farm (LTT)"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 10,
+  "Đơn giá": 14,
+  "Thành tiền": 140000
+}, {
+  "Tên mặt hàng": "Nấm răm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 2,
+  "Đơn giá": 180,
+  "Thành tiền": 360000
+}]
+
+Image: d813d42f-e4db-4065-b996-e30322b14b83.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{"Ngày tạo đơn": "4 tháng 2 năm 2025", "Tên khách hàng": "Vita Mart"}, {"Tên mặt hàng": "Nấm bào ngư", "Đơn vị tính": "gói", "Số lượng": 10, "Đơn giá": 15, "Thành tiền": 150000}]
+
+Image: d59d7f80-8e65-46e5-ba91-c04f66e79a06.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "20 tháng 1 năm 2025",
+  "Tên khách hàng": "Thu Bàn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "70.000",
+  "Thành tiền": "70.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "180.000",
+  "Thành tiền": "180.000"
+}]
+
+Image: d9f0d348-4b97-40ff-a7bd-cdd28cd6277f.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "4 tháng 2 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Gói",
+  "Số lượng": 10,
+  "Đơn giá": 15,
+  "Thành tiền": 150000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 170,
+  "Thành tiền": 170000
+}]
+
+Image: d5bf6b6c-beea-43bd-9166-8e1d32f734b1.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "20 tháng 3 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 190,
+  "Thành tiền": 190000
+}, {
+  "Tên mặt hàng": "Nấm mộc nhĩ thái sợi",
+  "Đơn vị tính": "Gói",
+  "Số lượng": 3,
+  "Đơn giá": 30,
+  "Thành tiền": 90000
+}]
+
+Image: d3e30ced-74f9-4ea8-91f5-6a19806ab871.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "11 tháng 4 năm 2025",
+  "Tên khách hàng": "An Phú Farm (LTT)"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "14",
+  "Thành tiền": "70.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "0,5",
+  "Đơn giá": "190",
+  "Thành tiền": "95.000"
+}]
+
+Image: d0f3e35e-1ad5-4f51-b9ee-d0b7def2d268.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "6 tháng 2 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 10,
+  "Đơn giá": 15,
+  "Thành tiền": 150000
+}]
+
+Image: ce10d73b-d9f6-4f6d-817f-13847ce62b40.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "7 tháng 3 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 15,
+  "Thành tiền": 75000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 180,
+  "Thành tiền": 180000
+}]
+
+Image: c4161d24-c9d3-4fd8-abf8-346977e0e60e.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "29 tháng 3 năm 2025",
+  "Tên khách hàng": "An Phú Farm (PĐP)"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "2",
+  "Đơn giá": "190",
+  "Thành tiền": "380.000"
+}, {
+  "Tên mặt hàng": "Mộc nhĩ thái sợi",
+  "Đơn vị tính": "gói",
+  "Số lượng": "10",
+  "Đơn giá": "30",
+  "Thành tiền": "300.000"
+}]
+
+Image: c4f638b9-7f90-451e-b1cd-276d5b7cc49c.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "8 tháng 2 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm mộc nhĩ",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 25,
+  "Thành tiền": 125000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 190,
+  "Thành tiền": 190000
+}]
+
+Image: c4ef74f1-5b8c-4174-86bf-28031f6bdc5d.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "22 tháng 3 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 180,
+  "Thành tiền": 180000
+}, {
+  "Tên mặt hàng": "Nấm đông cô",
+  "Đơn vị tính": "gói",
+  "Số lượng": 3,
+  "Đơn giá": 40,
+  "Thành tiền": 120000
+}]
+
+Image: bfe474ff-e1a4-4011-9cfc-568d6b7cb90c.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "Ngày tạo đơn",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "70",
+  "Thành tiền": "70.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "180",
+  "Thành tiền": "180.000"
+}, {
+  "Tên mặt hàng": "Nấm mộc nhĩ",
+  "Đơn vị tính": "gói",
+  "Số lượng": "3",
+  "Đơn giá": "25",
+  "Thành tiền": "75.000"
+}]
+
+Image: bcfb5749-3c24-4035-a7c9-c5227596dd47.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "11 tháng 3 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "10",
+  "Đơn giá": "15",
+  "Thành tiền": "150.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1,5",
+  "Đơn giá": "180",
+  "Thành tiền": "270.000"
+}]
+
+Image: b7177e19-d437-442d-b690-5828da8d56c2.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "15 tháng 2 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 10,
+  "Đơn giá": 15,
+  "Thành tiền": 150000
+}]
+
+Image: b029d22d-5c74-46c7-b14a-747431f3d4c4.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "6 tháng 2 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 15,
+  "Thành tiền": 75000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 180,
+  "Thành tiền": 180000
+}]
+
+Image: b7c3378e-b32f-44cb-8902-765902c51957.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "10 tháng 3 năm 2025",
+  "Tên khách hàng": "VitaMart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "15",
+  "Đơn giá": "15",
+  "Thành tiền": "225.000"
+}]
+
+Image: b3a6cea8-db3e-4c42-ab35-0f432e1d7054.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "12 tháng 1 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "70",
+  "Thành tiền": "70.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "195",
+  "Thành tiền": "195.000"
+}]
+
+Image: a5812640-27ec-45ee-b788-6f89daf10938.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "11 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "10",
+  "Đơn giá": "15",
+  "Thành tiền": "150.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "2",
+  "Đơn giá": "190",
+  "Thành tiền": "380.000"
+}]
+
+Image: a66597d5-48f8-45eb-b623-77b0ae119419.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "16 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 180,
+  "Thành tiền": 180000
+}, {
+  "Tên mặt hàng": "Mộc nhĩ thái sợi",
+  "Đơn vị tính": "gói",
+  "Số lượng": 3,
+  "Đơn giá": 30,
+  "Thành tiền": 90000
+}]
+
+Image: 32269049-c53c-451b-8700-79efbf9a09c9.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "10 tháng 1 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 70,
+  "Thành tiền": 70000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 180,
+  "Thành tiền": 180000
+}]
+
+Image: 938604a0-7c67-41f3-a2e1-8e9b09676894.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "12 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "10",
+  "Đơn giá": "15",
+  "Thành tiền": "150.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "4",
+  "Đơn giá": "180",
+  "Thành tiền": "720.000"
+}]
+
+Image: 241292d9-2848-4d8d-a4b9-a3ada72f76a7.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "8 tháng 1 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm mộc nhĩ thái sợi",
+  "Đơn vị tính": "gói",
+  "Số lượng": "3",
+  "Đơn giá": "25",
+  "Thành tiền": "75.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "180",
+  "Thành tiền": "180.000"
+}]
+
+Image: 86388bfa-bc4c-4705-a161-ecf92a61db0c.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "21 tháng 2 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 10,
+  "Đơn giá": 15,
+  "Thành tiền": 150000
+}]
+
+Image: 63587a01-8bc8-48fe-8b6d-409b1f11733d.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "29 tháng 3 năm 2025",
+  "Tên khách hàng": "An Phú Farm (LTT)"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "7",
+  "Đơn giá": "14",
+  "Thành tiền": "98.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "2",
+  "Đơn giá": "190",
+  "Thành tiền": "380.000"
+}, {
+  "Tên mặt hàng": "Mộc nhĩ thái sợi",
+  "Đơn vị tính": "gói",
+  "Số lượng": "10",
+  "Đơn giá": "30",
+  "Thành tiền": "300.000"
+}, {
+  "Tên mặt hàng": "Nấm hương",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "50",
+  "Thành tiền": "250.000"
+}]
+
+Image: 8077cd91-1a54-4ed2-8b35-5d1183873ebe.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "19 tháng 2 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "15",
+  "Thành tiền": "75.000"
+}]
+
+Image: 5054a834-8974-4329-9647-cca31bdba5ed.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "29 tháng 3 năm 2025",
+  "Tên khách hàng": "An Phú Farm (PDP)"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "2",
+  "Đơn giá": "190",
+  "Thành tiền": "380.000"
+}, {
+  "Tên mặt hàng": "Mộc nhĩ thái sợi",
+  "Đơn vị tính": "gói",
+  "Số lượng": "10",
+  "Đơn giá": "30",
+  "Thành tiền": "300.000"
+}]
+
+Image: 4426c60f-d051-40df-a6c7-3280765e7df4.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "11 tháng 1 năm 2025",
+  "Tên khách hàng": "VitaMart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "70.000",
+  "Thành tiền": "70.000"
+}]
+
+Image: 2438d769-2ae7-4820-9fca-f2cdcba16f25.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "15 tháng 1 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 70,
+  "Thành tiền": 70000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 180,
+  "Thành tiền": 180000
+}]
+
+Image: 993e59cc-5407-4991-ab35-d4491103f36e.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "11 tháng 3 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "180",
+  "Thành tiền": "180.000"
+}, {
+  "Tên mặt hàng": "Nấm mộc nhĩ",
+  "Đơn vị tính": "gói",
+  "Số lượng": "3",
+  "Đơn giá": "25",
+  "Thành tiền": "75.000"
+}]
+
+Image: 847d8ca3-48e0-4000-bced-7200c2215d2f.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "16 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "180",
+  "Thành tiền": "180.000"
+}, {
+  "Tên mặt hàng": "Mộc nhĩ thái sợi",
+  "Đơn vị tính": "gói",
+  "Số lượng": "3",
+  "Đơn giá": "30",
+  "Thành tiền": "90.000"
+}]
+
+Image: 828fa5b4-3d9c-41de-91aa-9d5fefac928d.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "16 tháng 2 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "15",
+  "Thành tiền": "75.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "180",
+  "Thành tiền": "180.000"
+}]
+
+Image: 99bb4950-1df1-49d7-96dc-61e36c9d6126.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "25 tháng 2 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Gói",
+  "Số lượng": 10,
+  "Đơn giá": 15,
+  "Thành tiền": 150000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 195,
+  "Thành tiền": 195000
+}]
+
+Image: 93dc57e0-d383-4598-bc6c-30e26c850c7b.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "11 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "10",
+  "Đơn giá": "15",
+  "Thành tiền": "150.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "2",
+  "Đơn giá": "190",
+  "Thành tiền": "380.000"
+}]
+
+Image: 92b3a4e4-5161-442b-9cc9-f0dd83c221f2.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "23 tháng 1 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "kg",
+  "Số lượng": 2,
+  "Đơn giá": 70,
+  "Thành tiền": 140000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 260,
+  "Thành tiền": 260000
+}, {
+  "Tên mặt hàng": "Nấm mộc nhĩ",
+  "Đơn vị tính": "gói",
+  "Số lượng": 10,
+  "Đơn giá": 25,
+  "Thành tiền": 250000
+}, {
+  "Tên mặt hàng": "Nấm đông cô",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 40,
+  "Thành tiền": 200000
+}]
+
+Image: 80defa8e-67a1-4157-97a3-336dfcf482a7.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "12 tháng 1 năm 2025",
+  "Tên khách hàng": "VitaMart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "2",
+  "Đơn giá": "70",
+  "Thành tiền": "140.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "195",
+  "Thành tiền": "195.000"
+}]
+
+Image: 65babd24-3241-454f-a55c-430bb98daf94.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "5 tháng 3 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "75.000",
+  "Thành tiền": "375.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "170.000",
+  "Thành tiền": "170.000"
+}]
+
+Image: 42f2065d-8932-4090-8ab9-0cdbdd5424dd.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "15 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 15,
+  "Thành tiền": 75000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 180,
+  "Thành tiền": 180000
+}]
+
+Image: 33cda353-4576-4f3f-91fb-b2d6f3e4906e.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "10 tháng 3 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "15",
+  "Thành tiền": "75.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "190",
+  "Thành tiền": "190.000"
+}]
+
+Image: 16aff0f7-1a05-4e64-9263-27f7977e424c.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "15 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 15,
+  "Thành tiền": 75000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 180,
+  "Thành tiền": 180000
+}]
+
+Image: 10beba04-108d-432e-b2af-f4d77527cc99.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "29 tháng 3 năm 2025",
+  "Tên khách hàng": "An Phú Farm (PDL)"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "14",
+  "Thành tiền": "70.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "190",
+  "Thành tiền": "190.000"
+}]
+
+Image: 9d2f0963-56c3-4299-b424-a5aa28f9950d.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "12 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "10",
+  "Đơn giá": "15",
+  "Thành tiền": "150.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "4",
+  "Đơn giá": "180",
+  "Thành tiền": "720.000"
+}]
+
+Image: 8f547954-412c-45b9-9f79-bbcc9f51cd4d.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "24 tháng 2 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 195,
+  "Thành tiền": 195000
+}, {
+  "Tên mặt hàng": "Nấm mộc nhĩ thái sợi",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 30,
+  "Thành tiền": 150000
+}]
+
+Image: 8d3d69e6-ba38-4089-948b-9cc0779eabb3.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "14 tháng 2 năm 2025",
+  "Tên khách hàng": "An Phú Farm (LTT)"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Gói",
+  "Số lượng": 10,
+  "Đơn giá": 14,
+  "Thành tiền": 140000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 2,
+  "Đơn giá": 180,
+  "Thành tiền": 360000
+}]
+
+Image: 7ee5baaf-2b5d-4f7c-8973-5980a2ba40cb.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "20 tháng 2 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Gói",
+  "Số lượng": 5,
+  "Đơn giá": 15,
+  "Thành tiền": 75000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 200,
+  "Thành tiền": 200000
+}]
+
+Image: 7a9b014e-99b0-4371-a87f-7b31c51b121c.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "8 tháng 3 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": 1,
+  "Đơn giá": 180,
+  "Thành tiền": 180000
+}, {
+  "Tên mặt hàng": "Nấm mộc nhĩ thái sợi",
+  "Đơn vị tính": "gói",
+  "Số lượng": 3,
+  "Đơn giá": 30,
+  "Thành tiền": 90000
+}]
+
+Image: 07fc956b-fa49-4605-a0a8-ddbd63515943.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "21 tháng 1 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "70.000",
+  "Thành tiền": "70.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "240.000",
+  "Thành tiền": "240.000"
+}]
+
+Image: 6d043db2-176d-452a-b65f-106404f5ef50.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "11 tháng 4 năm 2025",
+  "Tên khách hàng": "An Phú Farm (LTT)"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "14",
+  "Thành tiền": "70.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "0,5",
+  "Đơn giá": "190",
+  "Thành tiền": "95.000"
+}]
+
+Image: 5f30811b-25ca-4343-a150-69a026c1b700.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "4 tháng 3 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 15,
+  "Thành tiền": 75000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 170,
+  "Thành tiền": 170000
+}]
+
+Image: 5ee1e209-29b4-43b8-8e2e-1d60b778fcba.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "10 tháng 2 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "15",
+  "Thành tiền": "75.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "200",
+  "Thành tiền": "200.000"
+}]
+
+Image: 5df0740c-90d6-4df8-913f-a332606b0718.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "26 tháng 2 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": 10,
+  "Đơn giá": 15,
+  "Thành tiền": 150000
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 195,
+  "Thành tiền": 195000
+}]
+
+Image: 5.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "28 tháng 3 năm 2025",
+  "Tên khách hàng": "An Phú Farm"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "14",
+  "Thành tiền": "70.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "2",
+  "Đơn giá": "200",
+  "Thành tiền": "400.000"
+}]
+
+Image: 3fbb0709-2969-4e7a-af0f-17277a4ff6d3.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "3 tháng 1 năm 2025",
+  "Tên khách hàng": "VitaMart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "1",
+  "Đơn giá": "70",
+  "Thành tiền": "70.000"
+}]
+
+Image: 3f8bd2c8-f961-41e1-8c89-1dcb33be557e.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "7 tháng 3 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "10",
+  "Đơn giá": "15",
+  "Thành tiền": "150.000"
+}]
+
+Image: 3.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "26 tháng 2 năm 2025",
+  "Tên khách hàng": "GreenTech Food"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "Kg",
+  "Số lượng": "2",
+  "Đơn giá": "195",
+  "Thành tiền": "390.000"
+}]
+
+Image: 2.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "27 tháng 1 năm 2025",
+  "Tên khách hàng": "Green Tech Food"
+}, {
+  "Tên mặt hàng": "Tiến bột",
+  "Đơn vị tính": "Hộp",
+  "Số lượng": "20",
+  "Đơn giá": "35",
+  "Thành tiền": "700.000"
+}]
+
+Image: 1.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "17 tháng 1 năm 2025",
+  "Tên khách hàng": "Vita Mart"
+}, {
+  "Tên mặt hàng": "Nấm Bào Ngư",
+  "Đơn vị tính": "kg",
+  "Số lượng": "2",
+  "Đơn giá": "70",
+  "Thành tiền": "140.000"
+}]
+
+Image: 0e066a5c-8097-414d-8911-5da8e44e414b.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "16 tháng 3 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": 1,
+  "Đơn giá": 170,
+  "Thành tiền": 170000
+}, {
+  "Tên mặt hàng": "Nấm mộc nhĩ",
+  "Đơn vị tính": "gói",
+  "Số lượng": 5,
+  "Đơn giá": 25,
+  "Thành tiền": 125000
+}]
+
+Image: 0b357f81-fb86-44f2-a7e0-9fab4039f67a.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "10 tháng 4 năm 2025",
+  "Tên khách hàng": "Thu Bồn"
+}, {
+  "Tên mặt hàng": "Nấm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "5",
+  "Đơn giá": "15",
+  "Thành tiền": "75.000"
+}, {
+  "Tên mặt hàng": "Nấm rơm",
+  "Đơn vị tính": "kg",
+  "Số lượng": "1",
+  "Đơn giá": "180",
+  "Thành tiền": "180.000"
+}]
+
+Image: d98b7e49-2fe7-401c-85ad-f332ddaa06db.jpg
+User: <image>
+Nhận diện hoá đơn trong ảnh. Chỉ trả về phần liệt kê từng mặt hàng hàng dưới dạng JSON, phần Ngày tạo đơn và Tên khách hàng chỉ in ra một lần:
+[
+  {
+    "Ngày tạo đơn": "Ngày tạo đơn",
+    "Tên khách hàng": "Tên khách hàng",
+  }
+  {
+    "Tên mặt hàng": "Tên mặt hàng",
+    "Đơn vị tính": "Đơn vị tính",
+    "Số lượng": "Số lượng",
+    "Đơn giá": "Đơn giá",
+    "Thành tiền": "Thành tiền"
+  },
+]
+
+Assistant: [{
+  "Ngày tạo đơn": "25 tháng 4 năm 2025",
+  "Tên khách hàng": "Xanh Xanh"
+}, {
+  "Tên mặt hàng": "Năm bào ngư",
+  "Đơn vị tính": "gói",
+  "Số lượng": "25",
+  "Đơn giá": "15",
+  "Thành tiền": "375.000"
+}]
+
