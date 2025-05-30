@@ -5,7 +5,7 @@ import os
 import ast
 
 # Add your Gemini API URL and potentially API Key here
-GEMINI_API_KEY = "AIzaSyD6qTOjr_6f8ZEpzQWAKUS385qY4ul-e0E"
+GEMINI_API_KEY = ""
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 if not GEMINI_API_KEY:
