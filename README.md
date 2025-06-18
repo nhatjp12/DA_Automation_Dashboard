@@ -1,3 +1,5 @@
+Link youtube Demo: https://www.youtube.com/watch?v=PHtZdTiPV94
+
 # Quy trình xử lý Prompt người dùng cho Dashboard bán hàng
 
 File này mô tả luồng xử lý khi người dùng nhập một yêu cầu phân tích dữ liệu bằng ngôn ngữ tự nhiên (prompt) trong ứng dụng Dashboard bán hàng.
