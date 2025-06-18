@@ -53,7 +53,6 @@ ORDER BY
 - Nó gọi hàm trong file `app/services/db_service.py` để thực thi câu lệnh SQL này trên cơ sở dữ liệu SQL Server.
 - File `app/services/db_service.py` chứa logic kết nối cơ sở dữ liệu (sử dụng SQLAlchemy và PyODBC) với thông tin cấu hình như tên server (`DESKTOP-GHAKIAA`), database (`InvoiceDB`), UID, PWD, v.v.
 - Kết quả truy vấn từ cơ sở dữ liệu (dữ liệu dạng bảng) được trả về cho `app/services/gemini_service.py`.
-
 ## 5. Xử lý và hiển thị dữ liệu trên giao diện
 
 - Dữ liệu nhận được từ database và `chart_type` từ API được truyền lại cho giao diện người dùng.
@@ -61,16 +60,10 @@ ORDER BY
     - Dữ liệu được chuyển đổi thành DataFrame của Pandas.
     - Streamlit sử dụng thư viện `plotly.express` để tạo đối tượng biểu đồ dựa trên dữ liệu và `chart_type`.
     - Biểu đồ được hiển thị trực tiếp trong ứng dụng Streamlit bằng `st.plotly_chart()`.
-- **Nếu sử dụng giao diện Frontend riêng (React):**
-    - Dữ liệu và `chart_type` được gửi đến component render biểu đồ (ví dụ: `frontend/src/components/ChartRenderer.jsx`).
-    - Component này sử dụng thư viện `chart.js` (hoặc `react-chartjs-2`) để vẽ loại biểu đồ tương ứng với dữ liệu nhận được.
-
 ## Tóm tắt vai trò các File chính
 
 - `app/streamlit_app.py`: Giao diện người dùng (Streamlit), nhận prompt, gọi backend, hiển thị kết quả dạng bảng và biểu đồ (dùng Plotly).
 - `app/services/gemini_service.py`: Tầng trung gian backend, nhận prompt từ UI, gọi API mô hình ngôn ngữ, nhận SQL và chart_type, gọi `db_service` để chạy SQL.
 - `app/services/db_service.py`: Chứa logic kết nối và thực thi truy vấn trên cơ sở dữ liệu SQL Server.
 - `etl/initial_etl.py` / `etl/daily_etl.py`: Các script ETL ban đầu và hàng ngày, chịu trách nhiệm đọc dữ liệu nguồn (Excel) và load vào cơ sở dữ liệu SQL Server theo lược đồ hình sao. **Các file này không tham gia trực tiếp vào quy trình xử lý prompt sau khi dữ liệu đã được load.**
-- `frontend/src/components/ChartRenderer.jsx`: Component frontend (React) chịu trách nhiệm vẽ biểu đồ trên giao diện web sử dụng Chart.js (nếu có giao diện frontend riêng).
-
 Quy trình này đảm bảo rằng yêu cầu phân tích dữ liệu bằng ngôn ngữ tự nhiên của người dùng được chuyển đổi thành truy vấn SQL chính xác dựa trên cấu trúc cơ sở dữ liệu hiện tại và kết quả được hiển thị trực quan dưới dạng biểu đồ. 
